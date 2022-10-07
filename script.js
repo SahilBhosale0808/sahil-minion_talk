@@ -9,9 +9,8 @@ function getTranslationURL(text){
 }
 
 function errorHandling(error){
-    alert(
-      "Uh oh,Go back to where it all began,Try again later"
-    );
+    
+  document.querySelector("#txt-message").textContent = "Uh oh,Go back to where it all began,Try again later";
 }
 
 function translateEvent() {
